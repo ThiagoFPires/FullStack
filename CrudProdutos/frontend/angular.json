@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crud-produtos": {
+    "frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -25,7 +25,7 @@
               }
             ],
             "styles": [
-              "src/custom-theme.scss",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ]
           },
@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "crud-produtos:build:production"
+              "buildTarget": "frontend:build:production"
             },
             "development": {
-              "buildTarget": "crud-produtos:build:development"
+              "buildTarget": "frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
