@@ -229,7 +229,7 @@ Content-Type: application/json
 
 ### 1. Tela Principal - Lista de Produtos
 
-![Lista de Produtos](./screenshots/lista-produtos.png)
+![Lista de Produtos](https://raw.githubusercontent.com/ThiagoFPires/FullStack/master/screenshots/lista-produtos.png)
 
 *Tabela com todos os produtos cadastrados, utilizando Angular Material Table*
 
@@ -237,7 +237,7 @@ Content-Type: application/json
 
 ### 2. Formulário de Criação/Edição
 
-![Formulário](./screenshots/formulario-produto.png)
+![Formulário](https://raw.githubusercontent.com/ThiagoFPires/FullStack/master/screenshots/formulario-produto.png)
 
 *Modal com formulário validado usando Angular Material Form Fields*
 
@@ -245,7 +245,7 @@ Content-Type: application/json
 
 ### 3. Confirmação de Exclusão
 
-![Confirmação](./screenshots/confirmacao-exclusao.png)
+![Confirmação](https://raw.githubusercontent.com/ThiagoFPires/FullStack/master/screenshots/confirmacao-exclusao.png)
 
 *Dialog de confirmação elegante com ícone de aviso*
 
@@ -253,7 +253,7 @@ Content-Type: application/json
 
 ### 4. Notificações de Sucesso/Erro
 
-![Notificação](./screenshots/notificacao-sucesso.png)
+![Notificação](https://raw.githubusercontent.com/ThiagoFPires/FullStack/master/screenshots/notificacao-sucesso.png)
 
 *Feedback visual com Material Snackbar*
 
@@ -261,7 +261,7 @@ Content-Type: application/json
 
 ### 5. Backend Rodando
 
-![Backend Terminal](./screenshots/backend-terminal.png)
+![Backend Terminal](https://raw.githubusercontent.com/ThiagoFPires/FullStack/master/screenshots/backend-terminal.png)
 
 *Terminal mostrando o servidor rodando e conectado ao Supabase*
 
