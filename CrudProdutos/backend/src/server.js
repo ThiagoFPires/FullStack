@@ -51,17 +51,17 @@ const startServer = async () => {
     const connected = await testConnection();
     
     if (!connected) {
-      console.warn('⚠️  Aviso: Não foi possível conectar ao Supabase');
-      console.warn('Verifique suas credenciais no arquivo .env');
+      console.warn('Aviso: Não foi possível conectar ao Supabase');
+      console.warn('Verifique suas credenciais no .env');
     }
 
     app.listen(PORT, () => {
-      console.log(`🚀 Servidor rodando na porta ${PORT}`);
-      console.log(`📡 API disponível em http://localhost:${PORT}`);
-      console.log(`📝 Documentação em http://localhost:${PORT}/api/products`);
+      console.log(`Servidor rodando na porta ${PORT}`);
+      console.log(`API disponível em http://localhost:${PORT}`);
+      console.log(`Documentação em http://localhost:${PORT}/api/products`);
     });
   } catch (error) {
-    console.error('❌ Erro ao iniciar servidor:', error);
+    console.error('Erro ao iniciar servidor:', error);
     process.exit(1);
   }
 };
